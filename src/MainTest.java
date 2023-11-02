@@ -1,7 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
 class  MainTest {
-
     @org.junit.jupiter.api.Test
     void parenthesesCheck() {
         assertEquals(true, Main.parenthesesCheck("()"));
@@ -28,5 +27,4 @@ class  MainTest {
         assertEquals("Hello good day", Main.decipherThis("72olle 103doo 100ya"));
         assertEquals("Ready set go", Main.decipherThis("82yade 115te 103o"));
     }
-
 }
